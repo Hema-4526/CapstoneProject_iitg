@@ -78,16 +78,8 @@ flowchart TD
     C --> D[Model 1 / Model 2 / Model 3]
     D --> E[Real-Time Pricing Engine]
     E --> F[Output CSV + Bokeh Visualization]
-    
-📂 Folder Structure
 
-dynamic-parking-pricing/
-│
-├── dataset.csv
-├── dynamic_pricing.ipynb        # Main Colab notebook
-├── live_prices.csv              # Output from pricing engine
-├── README.md                    # This file
-└── visualizations/              # Saved Bokeh plots
+    
 📑 How Pricing Works
 Feature	Role in Pricing
 Occupancy	Higher → Higher price
@@ -112,7 +104,7 @@ Run all cells in order.
 View outputs in live_prices.csv and real-time Bokeh plots.
 
 
-👨‍💻 Contributors
+👨‍💻 Contributor
 Hema Sudabathula
 Capstone Project – Summer Analytics 2025
 
